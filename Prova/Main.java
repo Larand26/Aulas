@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         
+
+
         Scanner scan = new Scanner(System.in);
         final char[] gabarito = {'a','b','c','a','a'};
         char[] respostas = new char[gabarito.length];
@@ -53,6 +55,7 @@ public class Main {
                 System.out.println("NOTA INVALIDA");
                 break;
         }
+        scan.close();
 
     }
 }
