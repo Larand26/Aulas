@@ -1,4 +1,5 @@
 package Prova;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +26,8 @@ public class Main {
             
             while (true) {
                 r = scan.next().charAt(0);
-                if (r == 'a' || r == 'b' || r == 'c') {
+                char[] a = {'a','b','c'};
+                if (Arrays.binarySearch(a, r) == 1) {
                     respostas[i] = r;
                     break;
                 }else{
