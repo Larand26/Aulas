@@ -18,12 +18,12 @@ public class Main {
         // System.arraycopy(num, 0, num2, 0, num.length);
 
         // Faz a comparação de dois arrays
-        // Boolean a = Arrays.equals(num, num2);
-        // System.out.println(a);
+        Boolean a = Arrays.equals(num, num2);
+        System.out.println(a);
 
         // Pesquisa binária
-        boolean a = Arrays.binarySearch(num, 15) == 1;
-        System.out.println(a);
+        Boolean b = Arrays.binarySearch(num, 15) == 1;
+        System.out.println(b);
 
 
         
